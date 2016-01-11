@@ -1,0 +1,17 @@
+{
+  "name": "gif-grabber",
+  "version": "1.0.0",
+  "description": "Grabs gifs from specially configure gif repos",
+  "main": "lib/find-one.js",
+  "author": "chris@jaynes.me",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "~0.8.1",
+    "did-you-mean": "0.0.1",
+    "fuzzyset.js": "0.0.1",
+    "lodash": "~3.10.1",
+    "random-weighted-choice": "~0.1.3",
+    "sentiment": "~1.0.4",
+    "thesaurus": "0.0.0"
+  }
+}

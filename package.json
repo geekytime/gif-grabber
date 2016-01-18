@@ -6,6 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "~0.8.1",
+    "cartesian-product": "~2.1.2",
     "did-you-mean": "0.0.1",
     "fuzzyset.js": "0.0.1",
     "lodash": "~3.10.1",
@@ -18,10 +19,14 @@
     "url": "https://github.com/geekytime/gif-grabber.git"
   },
   "scripts": {
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "test": "mocha",
+    "test-watch": "mocha -w"
   },
   "devDependencies": {
+    "chai": "~3.4.1",
     "cz-conventional-changelog": "~1.1.5",
+    "mocha": "~2.3.4",
     "semantic-release": "^4.3.5"
   }
 }

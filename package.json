@@ -20,6 +20,7 @@
     "url": "https://github.com/geekytime/gif-grabber.git"
   },
   "scripts": {
+    "lint": "eslint .",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "mocha",
     "test-watch": "mocha -w"
@@ -27,12 +28,17 @@
   "devDependencies": {
     "chai": "~3.4.1",
     "cz-conventional-changelog": "~1.1.5",
+    "eslint": "^1.10.3",
+    "ghooks": "^1.0.3",
     "mocha": "~2.3.4",
     "semantic-release": "^4.3.5"
   },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      
     }
   }
 }

@@ -1,8 +1,6 @@
 var GifGrabber = require("../lib/gif-grabber.js");
 var index = require("./index.json");
 
-
-
 describe("gif-grabber", function(){
   var gifGrabber;
 
@@ -12,7 +10,7 @@ describe("gif-grabber", function(){
 
   it("finds lists of gifs", function(){
     var result = gifGrabber.findAll("monkey");
-    expect(result).to.have.length(7);
+    expect(result).to.have.length(4);
   });
 
   it("finds individual gifs", function(){
@@ -26,8 +24,7 @@ describe("gif-grabber", function(){
       "happy",
       "yay",
       "baby",
-      "halp",
-      "way"
+      "halp"
     ]);
   });
 });

@@ -12,7 +12,7 @@ describe("suggestion-finder", function(){
   it("finds suggestions for single words", function(){
     var request = buildRequest("monky");
     var result = suggestionFinder.find(request);
-    expect(result).to.eql(["bonk"]);
+    expect(result).to.eql(["money", "bonk"]);
   });
 
   it("finds suggestions for single words", function(){
@@ -24,6 +24,6 @@ describe("suggestion-finder", function(){
   it("finds suggestions for phrases", function(){
     var request = buildRequest("high fivee");
     var result = suggestionFinder.find(request);
-    expect(result).to.eql("high five");
+    expect(result).to.eql(["high five"]);
   });
 });

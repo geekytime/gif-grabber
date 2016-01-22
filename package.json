@@ -1,7 +1,7 @@
 {
   "name": "gif-grabber",
   "description": "Grabs gifs from specially configure gif repos",
-  "main": "lib/find-one.js",
+  "main": "lib/gif-grabber.js",
   "author": "chris@jaynes.me",
   "license": "MIT",
   "dependencies": {
